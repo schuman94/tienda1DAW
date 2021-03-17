@@ -1,5 +1,5 @@
 class Articulo:
-    def __init__(self, codigo, denominacion, precio):
+    def __init__(self, codigo: int, denominacion: str, precio:int):
         self.__codigo = codigo
         self.__denominacon = denominacion
         self.__precio = precio

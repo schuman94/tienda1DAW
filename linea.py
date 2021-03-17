@@ -1,5 +1,8 @@
+from articulo import Articulo
+
+
 class Linea:
-    def __init__(self, articulo, cantidad):
+    def __init__(self, articulo: Articulo, cantidad: int):
         self.__articulo = articulo
         self.__cantidad = cantidad
 

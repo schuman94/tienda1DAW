@@ -1,5 +1,5 @@
 class Cliente:
-    def __init__(self, dni, nombre, apellidos):
+    def __init__(self, dni: str, nombre: str, apellidos: str):
         self.__dni = dni
         self.__nombre = nombre
         self.__apellidos = apellidos
@@ -15,3 +15,6 @@ class Cliente:
     def get_apellidos(self):
         """Devuelve los apellidos"""
         return self.__apellidos
+
+    def __str__(self):
+        return f'{self.get_nombre()} {self.get_apellidos()}'
