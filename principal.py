@@ -6,7 +6,7 @@ from linea import Linea
 #Creamos articulos:
 tv = Articulo(1, 'TV SAMSUNG 47 INCH', 399)
 grafica = Articulo(2, 'TARJETA GRAFICA NVIDIA', 239)
-pen = Articulo(3, 'Pendrive 16GB', 12)
+pen = Articulo(3, 'Pendrive Sandisk 16GB', 12)
 
 #Creamos lineas de compra:
 linea1 = Linea(tv, 2)
