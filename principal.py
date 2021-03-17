@@ -21,7 +21,6 @@ manuel = Cliente('34567421K', 'Manuel', 'Rodriguez')
 fact1 = Factura(1, rosa, [linea1, linea2])
 fact2 = Factura(2, manuel, [linea1, linea2, linea3])
 
-"""
+
 #Trabajamos con las facturas:
 fact1.imprimir_factura()
-"""
